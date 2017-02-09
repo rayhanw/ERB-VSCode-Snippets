@@ -1,0 +1,104 @@
+{
+	"pc": {
+		"prefix": "pc",
+		"body": "<%# $0 %>",
+		"description": "output ERB tags",
+		"scope": "text.html.ruby"
+	},
+	"each": {
+		"prefix": "each",
+		"body": "\n<% ${1:@things}.each do |${2:thing}| %>\n\t$0\n<% end %>\n",
+		"description": "ERB each block",
+		"scope": "text.html.ruby"
+	},
+	"else": {
+		"prefix": "else",
+		"body": "<% else %>",
+		"description": "ERB else tag",
+		"scope": "text.html.ruby"
+	},
+	"elsif": {
+		"prefix": "elsif",
+		"body": "<% elsif ${1:true} %>",
+		"description": "ERB elsif tag",
+		"scope": "text.html.ruby"
+	},
+	"end": {
+		"prefix": "end",
+		"body": "\n<% end %>\n",
+		"description": "ERB end tag",
+		"scope": "text.html.ruby"
+	},
+	"er": {
+		"prefix": "er",
+		"body": "<% $0 %>",
+		"description": "ERB tags",
+		"scope": "text.html.ruby"
+	},
+	"t": {
+		"prefix": "t",
+		"body": "<%= t('$0') %>",
+		"description": "output ERB translation tags",
+		"scope": "text.html.ruby"
+	},
+	"ff": {
+		"prefix": "ff",
+		"body": "<%= form_for(${1:@things}) do |${2:f}| %>\n\t\t$3\n<% end %>\n  ",
+		"description": "output form_for ERB",
+		"scope": "text.html.ruby"
+	},
+	"ife": {
+		"prefix": "ife",
+		"body": "\n<% if $1 %>\n\t$2\n<% else %>\n\t$0\n<% end %>\n",
+		"description": "ERB if / else / end",
+		"scope": "text.html.ruby"
+	},
+	"if": {
+		"prefix": "if",
+		"body": "\n<% if $1 %>\n\t$0\n<% end %>\n",
+		"description": "ERB if / end",
+		"scope": "text.html.ruby"
+	},
+	"lblt": {
+		"prefix": "lblt",
+		"body": "<%= label_tag (:${1:thing}, \"${2:Your label text}\" %>",
+		"description": "insert a rails view label_tag helper",
+		"scope": "text.html.ruby"
+	},
+	"lt": {
+		"prefix": "lt",
+		"body": "<%= link_to $1, $2 %>",
+		"description": "insert a rails view link_to helper",
+		"scope": "text.html.ruby"
+	},
+	"pft": {
+		"prefix": "pft",
+		"body": "<%= password_field_tag(:${1:thing} %>",
+		"description": "insert a rails view password_field_tag helper",
+		"scope": "text.html.ruby"
+	},
+	"pe": {
+		"prefix": "pe",
+		"body": "<%= $0 %>",
+		"description": "output ERB tags",
+		"scope": "text.html.ruby"
+	},
+	"st": {
+		"prefix": "st",
+		"body": "<%= submit_tag \"${1:My Button Text}\", class: \"${2:class}\" %>",
+		"description": "insert a rails view submit_tag helper",
+		"scope": "text.html.ruby"
+	},
+	"tft": {
+		"prefix": "tft",
+		"body": "<%= text_field_tag \"${1:name}\", \"${2:value}\", placeholder: \"${3:placeholder}\", class: \"${4:class}\" %>",
+		"description": "insert a rails view text_field_tag helper",
+		"scope": "text.html.ruby"
+	},
+	"unless": {
+		"prefix": "unless",
+		"body": "\n<% unless $1 %>\n\t$0\n<% end %>\n",
+		"description": "ERB unless / end",
+		"scope": "text.html.ruby"
+	}
+}

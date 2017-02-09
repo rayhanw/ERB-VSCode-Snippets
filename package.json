@@ -1,0 +1,21 @@
+{
+    "name": "erb-vscode-snippets",
+    "displayName": "ERB-VSCode-Snippets",
+    "description": "A collection of Visual Studio Code snippets useful for writing ERB",
+    "version": "0.0.1",
+    "publisher": "ZneuRay",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "erb",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}

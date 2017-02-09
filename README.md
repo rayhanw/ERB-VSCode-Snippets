@@ -1,139 +1,65 @@
-ERB-Sublime-Snippets
-====================
+# erb-vscode-snippets README
 
-A collection of [Sublime Text](http://www.sublimetext.com/) snippets useful for writing [ERB](http://ruby-doc.org/stdlib-1.9.3/libdoc/erb/rdoc/ERB.html)
+This is the README for your extension "erb-vscode-snippets". After writing up a brief description, we recommend including the following sections.
 
-##Installation
+## Features
 
-These snippets can now be installed via [Sublime Package Control](http://wbond.net/sublime_packages/package_control). If you do not use package control, simply checkout the source code into Sublime Text's packages directory. The location is system specific:
+Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
 
-### For OSX
+For example if there is an image subfolder under your extension project workspace:
 
-    $ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
-    $ git clone git://github.com/matthewrobertson/ERB-Sublime-Snippets.git ERB_Snippets
+\!\[feature X\]\(images/feature-x.png\)
 
-### For Windows
+> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
-    $ cd %APPDATA%/Sublime Text 2/Packages/
-    $ git clone git://github.com/matthewrobertson/ERB-Sublime-Snippets.git ERB_Snippets
+## Requirements
 
-### For Linux
+If you have any requirements or dependencies, add a section describing those and how to install and configure them.
 
-    $ cd ~/.Sublime Text 2/Packages/
-    $ git clone git://github.com/matthewrobertson/ERB-Sublime-Snippets.git ERB_Snippets
+## Extension Settings
 
-##Snippets and Bindings
+Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
 
-<table>
-  <tr>
-    <th>Snippet</th>
-    <th>Tab Trigger</th>
-    <th>Output</th>
-  </tr>
-  <tr>
-    <td>ERB tags</td>
-    <td>__er__</td>
-    <td>`<%  %>`</td>
-  </tr>
-  <tr>
-    <td>print ERB tags</td>
-    <td>__pe__</td>
-    <td>`<%=  %>`</td>
-  </tr>
-  <tr>
-    <td>print ERB comment</td>
-    <td>__pc__</td>
-    <td>`<%#  %>`</td>
-  </tr>
-  <tr>
-    <td>`if` block</td>
-    <td>__if__</td>
-    <td>`<% if  %>...<% end %>`</td>
-  </tr>
-  <tr>
-    <td>`if` / `else` block</td>
-    <td>__ife__</td>
-    <td>`<% if  %>...<% else %>...<% end %>`</td>
-  </tr>
-  <tr>
-    <td>`else` tag</td>
-    <td>__else__</td>
-    <td>`<% else %>`</td>
-  </tr>
-  <tr>
-    <td>`elsif` tag</td>
-    <td>__elsif__</td>
-    <td>`<% elsif %>`</td>
-  </tr>
-  <tr>
-    <td>`unless` block</td>
-    <td>__unless__</td>
-    <td>`<% unless  %>...<% end %>`</td>
-  </tr>
-  <tr>
-    <td>`end` block</td>
-    <td>__end__</td>
-    <td>`<% end %>`</td>
-  </tr>
-  <tr>
-    <td>`submit_tag` helper</td>
-    <td>__st__</td>
-    <td>`<%= submit_tag ..., ... %>`</td>
-  </tr>
-  <tr>
-    <td>`text_field_tag` helper</td>
-    <td>__tft__</td>
-    <td>`<%= text_field_tag ..., ... %>`</td>
-  </tr>
-  <tr>
-    <td>`password_field_tag` helper</td>
-    <td>__pft__</td>
-    <td>`<%= password_field_tag ..., ... %>`</td>
-  </tr>
-  <tr>
-    <td>`label_tag` helper</td>
-    <td>__lblt__</td>
-    <td>`<%= label_tag ..., ... %>`</td>
-  </tr>
-  <tr>
-    <td>`link_to` helper</td>
-    <td>__lt__</td>
-    <td>`<%= link_to ..., ... %>`</td>
-  </tr>
-  <tr>
-    <td>`each` helper</td>
-    <td>__each__</td>
-    <td>`<% @things.each do |thing| %> ... <% end %>`</td>
-  </tr>
-  <tr>
-    <td>`form_for` helper</td>
-    <td>__ff__</td>
-    <td>`<%= form_for(@ ) do |f| %> ... <% end %>`</td>
-  </tr>
-  <tr>
-    <td>`t()` helper</td>
-    <td>__t__</td>
-    <td>`<%= t('@') %>`</td>
-  </tr>
-<table>
+For example:
 
-##Resolve conflicting tab trigger
+This extension contributes the following settings:
 
-It is possible for the snippets in this package to conflict with other Sublime text plugins, such as the built-in Rails package or [Rails Developer Snippets](https://github.com/j10io/railsdev-sublime-snippets). You may want to disable unwanted snippets.
+* `myExtension.enable`: enable/disable this extension
+* `myExtension.thing`: set to `blah` to do something
 
-### For Sublime Text 2
+## Known Issues
 
-Delete unwanted snippet files from `~/Library/Application\ Support/Sublime\ Text\ 2/Packages/<PackageName>/`
+Calling out known issues can help limit users opening duplicate issues against your extension.
 
-### For Sublime Text 3
+## Release Notes
 
-1. Install the [PackageResourceViewer](https://github.com/skuroda/PackageResourceViewer) Package
-2. Open unwanted snippets with `PackageResourceViewer: Open Resource` command and comment it out
+Users appreciate release notes as you update your extension.
 
-##Questions, Comments, Concerns?
+### 1.0.0
 
-Feel free to submit a pull request with any snippets you would like to add to the project. If you have any problems or suggestions you can contact me [on twitter](https://twitter.com/mattdrobertson).
+Initial release of ...
 
-##License
+### 1.0.1
 
-Released under [WTFPL, Version 2](https://raw.github.com/matthewrobertson/ERB-Sublime-Snippets/master/LICENSE.txt)
+Fixed issue #.
+
+### 1.1.0
+
+Added features X, Y, and Z.
+
+-----------------------------------------------------------------------------------------------------------
+
+## Working with Markdown
+
+**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+
+* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
+* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
+* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
+
+### For more information
+
+* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
+* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+
+**Enjoy!**
