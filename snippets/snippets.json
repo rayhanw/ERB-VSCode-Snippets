@@ -61,7 +61,7 @@
 	},
 	"lblt": {
 		"prefix": "lblt",
-		"body": "<%= label_tag (:${1:thing}, \"${2:Your label text}\" %>",
+		"body": "<%= label_tag :${1:thing}, \"${2:Your label text}\" %>",
 		"description": "insert a rails view label_tag helper",
 		"scope": "text.html.ruby"
 	},
@@ -73,7 +73,7 @@
 	},
 	"pft": {
 		"prefix": "pft",
-		"body": "<%= password_field_tag(:${1:thing} %>",
+		"body": "<%= password_field_tag :${1:thing} %>",
 		"description": "insert a rails view password_field_tag helper",
 		"scope": "text.html.ruby"
 	},
