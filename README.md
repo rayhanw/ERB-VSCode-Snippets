@@ -5,6 +5,12 @@ This extension is a fork of [ERB-Sublime-Snippets](https://github.com/matthewrob
 
 A collection of [Visual Studio Code](https://code.visualstudio.com/) snippets useful for writing [ERB](http://ruby-doc.org/stdlib-1.9.3/libdoc/erb/rdoc/ERB.html)
 
+## Version
+
+*0.0.3 ~ 0.0.4* - Syntax fixed
+
+*0.0.2* - First release
+
 ## Features
 
 ![feature](images/feature.gif?raw=true)
