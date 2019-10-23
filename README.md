@@ -58,4 +58,4 @@ These snippets can now be installed via [VS Code Marketplace](https://marketplac
 
 ## License
 
-Released under [WTFPL, Version 2](https://raw.githubusercontent.com/ZneuRay/ERB-VSCode-Snippets/master/LICENSE.txt)
+Released under [WTFPL, Version 2](https://raw.githubusercontent.com/rayhanw/ERB-VSCode-Snippets/master/LICENSE.txt)
