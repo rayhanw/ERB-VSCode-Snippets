@@ -6,6 +6,8 @@ A collection of [Visual Studio Code](https://code.visualstudio.com/) snippets us
 
 ## Version
 
+_0.0.6_ - Changed gif showcase
+
 _0.0.5_ - New helpers (cloudinary image tag, time ago in words, simple form, etc.)
 
 _0.0.3 ~ 0.0.4_ - Syntax fixed
