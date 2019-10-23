@@ -57,7 +57,7 @@ These snippets can now be installed via [VS Code Marketplace](https://marketplac
 | `time_ago_in_words` helper           | __tw__      | `<%= time_ago_in_words(...) %>`                |
 | `simple_form_for` helper             | __sf__      | `<%= simple_form_for ... do |f| ... <% end %>` |
 | `f.input` helper tag for simple form | __fi__      | `<%= f.input ... %>`                           |
-| `hidden_field_tag` helper tag        | __hft__     | `<%= hidden_field_tag ..., ... %>              |
+| `hidden_field_tag` helper tag        | __hft__     | `<%= hidden_field_tag ..., ... %>`             |
 
 
 ## License
