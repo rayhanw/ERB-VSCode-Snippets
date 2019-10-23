@@ -34,29 +34,30 @@ These snippets can now be installed via [VS Code Marketplace](https://marketplac
 
 ## Snippets and Bindings
 
-| Snippet                              | Tab Trigger | Output                              |
-| ------------------------------------ | ----------- | ----------------------------------- |
-| ERB comment tag                      | **pc**      | `<%# %>`                            |
-| `each` helper                        | **each**    | `<% @things.each do |thing| %> ...` |
-| `else` tag                           | **else**    | `<% else %>`                        |
-| `elsif` tag                          | **elsif**   | `<% elsif %>`                       |
-| `end` tag                            | **end**     | `<% end %>`                         |
-| ERB no display tag                   | **er**      | `<% %>`                             |
-| `form_for` helper                    | **ff**      | `<%= form_for(@ ) do |f| %> ...`    |
-| `if` / `else` block                  | **ife**     | `<% if %>...<% else %>...<% end %>` |
-| `if` block                           | **if**      | `<% if %>...<% end %>`              |
-| `label_tag` helper                   | **lblt**    | `<%= label_tag ..., ... %>`         |
-| `link_to` helper                     | **lt**      | `<%= link_to ..., ... %>`           |
-| ERB display tag                      | **pe**      | `<%= %>`                            |
-| `submit_tag` helper                  | **st**      | `<%= submit_tag ..., ... %>`        |
-| `text_field_tag` helper              | **tft**     | `<%= text_field_tag ..., ... %>`    |
-| `unless` block                       | **unless**  | `<% unless %>...<% end %>`          |
-| `image_tag` helper                   | **it**      | `<%= image_tag ..., ... %>`         |
-| `cl_image_tag` helper                | **clt**     | `<%= cl_image_tag(...) %>`          |
-| `time_ago_in_words` helper           | **tw**      | `<%= time_ago_in_words(...) %>`     |
-| `simple_form_for` helper             | **sf**      | `<%= simple_form_for ... do |f| %>` |
-| `f.input` helper tag for simple form | **fi**      | `<%= f.input ... %>`                |
-| `hidden_field_tag` helper tag        | **hft**     | `<%= hidden_field_tag ..., ... %>`  |
+| Snippet                               | Tab Trigger | Output                              |
+| ------------------------------------- | ----------- | ----------------------------------- |
+| ERB comment tag                       | **pc**      | `<%# %>`                            |
+| `each` helper                         | **each**    | `<% @things.each do |thing| %> ...` |
+| `else` tag                            | **else**    | `<% else %>`                        |
+| `elsif` tag                           | **elsif**   | `<% elsif %>`                       |
+| `end` tag                             | **end**     | `<% end %>`                         |
+| ERB no display tag                    | **er**      | `<% %>`                             |
+| `form_for` helper                     | **ff**      | `<%= form_for(@ ) do |f| %> ...`    |
+| `if` / `else` block                   | **ife**     | `<% if %>...<% else %>...<% end %>` |
+| `if` block                            | **if**      | `<% if %>...<% end %>`              |
+| `label_tag` helper                    | **lblt**    | `<%= label_tag ..., ... %>`         |
+| `link_to` helper                      | **lt**      | `<%= link_to ..., ... %>`           |
+| ERB display tag                       | **pe**      | `<%= %>`                            |
+| `submit_tag` helper                   | **st**      | `<%= submit_tag ..., ... %>`        |
+| `text_field_tag` helper               | **tft**     | `<%= text_field_tag ..., ... %>`    |
+| `unless` block                        | **unless**  | `<% unless %>...<% end %>`          |
+| `image_tag` helper                    | **it**      | `<%= image_tag ..., ... %>`         |
+| `cl_image_tag` helper                 | **clt**     | `<%= cl_image_tag(...) %>`          |
+| `time_ago_in_words` helper            | **tw**      | `<%= time_ago_in_words(...) %>`     |
+| `simple_form_for` helper              | **sf**      | `<%= simple_form_for ... do |f| %>` |
+| `f.input` helper tag for simple form  | **fi**      | `<%= f.input ... %>`                |
+| `hidden_field_tag` helper tag         | **hft**     | `<%= hidden_field_tag ..., ... %>`  |
+| `f.submit` helper tag for simple form | **ft**      | `<%= f.submit ... %>`               |
 
 ## License
 

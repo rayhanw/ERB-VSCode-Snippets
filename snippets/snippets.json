@@ -124,5 +124,11 @@
 		"body": "<%= hidden_field_tag :${1:label}, ${2:value} %>",
 		"description": "Hidden field tag helper",
 		"scope": "text.html.ruby"
+	},
+	"simple form submit": {
+		"prefix": "ft",
+		"body": "<%= f.submit '${1:text}' %>",
+		"description": "Submit tag for simple form",
+		"scope": "text.html.ruby"
 	}
 }
