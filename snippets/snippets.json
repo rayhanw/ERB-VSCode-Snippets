@@ -91,7 +91,7 @@
 	},
 	"image tag": {
 		"prefix": "it",
-		"body": "<%= image_tag :${1:source}, :${2:alttext} %>",
+		"body": "<%= image_tag ${1:source}, :${2:alttext} %>",
 		"description": "Image tag",
 		"scope": "text.html.ruby"
 	},
