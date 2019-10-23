@@ -20,11 +20,11 @@ _0.0.2_ - First release
 
 These snippets can now be installed via [VS Code Marketplace](https://marketplace.visualstudio.com/VSCode).
 
-## Manual installation with extension
+<!-- ## Manual installation with extension
 
 1. Download [erb-vscode-snippets.vsix](https://raw.githubusercontent.com/rayhanw/ERB-VSCode-Snippets/master/bin/erb-vscode-snippets.vsix)
 2. Press `F1` enter `ext vsix`
-3. Select `erb-vscode-snippets.vsix`
+3. Select `erb-vscode-snippets.vsix` -->
 
 ## Manual installation without extension
 
