@@ -14,7 +14,7 @@ _0.0.2_ - First release
 
 ## Features
 
-![feature](images/feature.gif?raw=true)
+![feature](images/showcase.gif)
 
 ## Installation
 
