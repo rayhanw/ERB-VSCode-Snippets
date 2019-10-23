@@ -112,5 +112,11 @@
 		"body": "<%= simple_form_for ${1:@model} do |f| %>\n\t$0\n<% end %>\n",
 		"description": "simple form tag",
 		"scope": "text.html.ruby"
+	},
+	"simple form input": {
+		"prefix": "fi",
+		"body": "<%= f.input :${1:attribute} %>",
+		"description": "Input for simple form",
+		"scope": "text.html.ruby"
 	}
 }
