@@ -89,6 +89,12 @@
 		"description": "ERB unless / end",
 		"scope": "text.html.ruby"
 	},
+	"image tag": {
+		"prefix": "it",
+		"body": "<%= image_tag :${1:source}, :${2:alttext} %>",
+		"description": "Image tag",
+		"scope": "text.html.ruby"
+	},
 	"cloudinary image tag": {
 		"prefix": "clt",
 		"body": "<%= cl_image_tag($1) %>",

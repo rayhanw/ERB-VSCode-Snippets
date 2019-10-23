@@ -32,99 +32,27 @@ These snippets can now be installed via [VS Code Marketplace](https://marketplac
 3. Paste the snippets code
 
 ## Snippets and Bindings
+| Snippet                    | Tab Trigger | Output                                        |
+| -------------------------- | ----------- | --------------------------------------------- |
+| ERB comment tag            | __pc__      | `<%#  %>`                                     |
+| `each` helper              | __each__    | `<% @things.each do |thing| %> ... <% end %>` |
+| `else` tag                 | __else__    | `<% else %>`                                  |
+| `elsif` tag                | __elsif__   | `<% elsif %>`                                 |
+| `end` tag                  | __end__     | `<% end %>`                                   |
+| ERB no display tag         | __er__      | `<%  %>`                                      |
+| `form_for` helper          | __ff__      | `<%= form_for(@ ) do |f| %> ... <% end %>`    |
+| `if` / `else` block        | __ife__     | `<% if  %>...<% else %>...<% end %>`          |
+| `if` block                 | __if__      | `<% if  %>...<% end %>`                       |
+| `label_tag` helper         | __lblt__    | `<%= label_tag ..., ... %>`                   |
+| `link_to` helper           | __lt__      | `<%= link_to ..., ... %>`                     |
+| ERB display tag            | __pe__      | `<%=  %>`                                     |
+| `submit_tag` helper        | __st__      | `<%= submit_tag ..., ... %>`                  |
+| `text_field_tag` helper    | __tft__     | `<%= text_field_tag ..., ... %>`              |
+| `unless` block             | __unless__  | `<% unless  %>...<% end %>`                   |
+| `image_tag` helper         | __it__      | `<%= image_tag ..., ... %>`                   |
+| `cl_image_tag` helper      | __clt__     | `<%= cl_image_tag(...) %>`                    |
+| `time_ago_in_words` helper | __tw__      | `<%= time_ago_in_words(...) %>`               |
 
-<table>
-  <tr>
-    <th>Snippet</th>
-    <th>Tab Trigger</th>
-    <th>Output</th>
-  </tr>
-  <tr>
-    <td>ERB comment tag</td>
-    <td>**pc**</td>
-    <td>`<%#  %>`</td>
-  </tr>
-  <tr>
-    <td>`each` helper</td>
-    <td>each</td>
-    <td>`<% @things.each do |thing| %> ... <% end %>`</td>
-  </tr>
-  <tr>
-    <td>`else` tag</td>
-    <td>**else**</td>
-    <td>`<% else %>`</td>
-  </tr>
-  <tr>
-    <td>`elsif` tag</td>
-    <td>**elsif**</td>
-    <td>`<% elsif %>`</td>
-  </tr>
-  <tr>
-    <td>`end` block</td>
-    <td>**end**</td>
-    <td>`<% end %>`</td>
-  </tr>
-  <tr>
-    <td>ERB no display tag</td>
-    <td>**er**</td>
-    <td>`<%  %>`</td>
-  </tr>
-  <tr>
-    <td>`form_for` helper</td>
-    <td>ff</td>
-    <td>`<%= form_for(@ ) do |f| %> ... <% end %>`</td>
-  </tr>
-  <tr>
-    <td>`if` / `else` block</td>
-    <td>**ife**</td>
-    <td>`<% if  %>...<% else %>...<% end %>`</td>
-  </tr>
-  <tr>
-    <td>`if` block</td>
-    <td>**if**</td>
-    <td>`<% if  %>...<% end %>`</td>
-  </tr>
-  <tr>
-    <td>`label_tag` helper</td>
-    <td>lblt</td>
-    <td>`<%= label_tag ..., ... %>`</td>
-  </tr>
-  <tr>
-    <td>`link_to` helper</td>
-    <td>lt</td>
-    <td>`<%= link_to ..., ... %>`</td>
-  </tr>
-  <tr>
-    <td>print ERB tags</td>
-    <td>**pe**</td>
-    <td>`<%=  %>`</td>
-  </tr>
-  <tr>
-    <td>`submit_tag` helper</td>
-    <td>**st**</td>
-    <td>`<%= submit_tag ..., ... %>`</td>
-  </tr>
-  <tr>
-    <td>`text_field_tag` helper</td>
-    <td>**tft**</td>
-    <td>`<%= text_field_tag ..., ... %>`</td>
-  </tr>
-  <tr>
-    <td>`unless` block</td>
-    <td>**unless**</td>
-    <td>`<% unless  %>...<% end %>`</td>
-  </tr>
-  <tr>
-    <td>`cl_image_tag` helper</td>
-    <td>**clt**</td>
-    <td>`<%= cl_image_tag(...) %>"`</td>
-  </tr>
-  <tr>
-    <td>`time_ago_in_words` helper</td>
-    <td>**tw**</td>
-    <td>`time_ago_in_words(...)`</td>
-  </tr>
-<table>
 
 ## License
 
