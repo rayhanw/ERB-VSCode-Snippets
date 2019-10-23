@@ -8,6 +8,8 @@ A collection of [Visual Studio Code](https://code.visualstudio.com/) snippets us
 
 ## Version
 
+*0.0.5* - New helpers (cloudinary image tag, time ago in words, simple form, and simple form's input tag)
+
 *0.0.3 ~ 0.0.4* - Syntax fixed
 
 *0.0.2* - First release
