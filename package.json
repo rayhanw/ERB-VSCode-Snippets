@@ -1,26 +1,26 @@
 {
-    "name": "erb-vscode-snippets",
-    "displayName": "ERB-VSCode-Snippets",
-    "description": "A collection of Visual Studio Code snippets useful for writing ERB",
-    "version": "0.0.4",
-    "publisher": "ZneuRay",
-    "engines": {
-        "vscode": "^1.5.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "erb",
-                "path": "./snippets/snippets.json"
-            }
-        ]
-    },
-    "icon": "images/icon.png",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/ZneuRay/ERB-VSCode-Snippets.git"
-    }
+	"name": "erb-helpers",
+	"displayName": "ERB Helper Tags",
+	"description": "A collection of ERB snippets",
+	"version": "0.0.4",
+	"publisher": "rayhanw",
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "erb",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	},
+	"icon": "images/icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rayhanw/ERB-VSCode-Snippets.git"
+	}
 }
