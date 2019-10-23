@@ -1,6 +1,5 @@
 # ERB-VSCode-Snippets
 
-====================
 
 This extension is a fork of [ERB-VSCode-Snippets](https://github.com/ZneuRay/ERB-VSCode-Snippets) which is a fork of [ERB-Sublime-Snippets](https://github.com/matthewrobertson/ERB-Sublime-Snippets)
 
