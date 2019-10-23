@@ -106,5 +106,11 @@
 		"body": "<%= time_ago_in_words($1) %>",
 		"description": "distance from time tag",
 		"scope": "text.html.ruby"
+	},
+	"simple form helper": {
+		"prefix": "sf",
+		"body": "<%= simple_form_for ${1:@model} do |f| %>\n\t$0\n<% end %>\n",
+		"description": "simple form tag",
+		"scope": "text.html.ruby"
 	}
 }
