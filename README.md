@@ -1,17 +1,16 @@
 # ERB-VSCode-Snippets
 
-
 This extension is a fork of [ERB-VSCode-Snippets](https://github.com/ZneuRay/ERB-VSCode-Snippets) which is a fork of [ERB-Sublime-Snippets](https://github.com/matthewrobertson/ERB-Sublime-Snippets)
 
 A collection of [Visual Studio Code](https://code.visualstudio.com/) snippets useful for writing [ERB](http://ruby-doc.org/stdlib-1.9.3/libdoc/erb/rdoc/ERB.html)
 
 ## Version
 
-*0.0.5* - New helpers (cloudinary image tag, time ago in words, simple form, etc.)
+_0.0.5_ - New helpers (cloudinary image tag, time ago in words, simple form, etc.)
 
-*0.0.3 ~ 0.0.4* - Syntax fixed
+_0.0.3 ~ 0.0.4_ - Syntax fixed
 
-*0.0.2* - First release
+_0.0.2_ - First release
 
 ## Features
 
@@ -34,30 +33,30 @@ These snippets can now be installed via [VS Code Marketplace](https://marketplac
 3. Paste the snippets code
 
 ## Snippets and Bindings
-| Snippet                              | Tab Trigger | Output                               |
-| ------------------------------------ | ----------- | ------------------------------------ |
-| ERB comment tag                      | __pc__      | `<%#  %>`                            |
-| `each` helper                        | __each__    | `<% @things.each do |thing| %> ...`  |
-| `else` tag                           | __else__    | `<% else %>`                         |
-| `elsif` tag                          | __elsif__   | `<% elsif %>`                        |
-| `end` tag                            | __end__     | `<% end %>`                          |
-| ERB no display tag                   | __er__      | `<%  %>`                             |
-| `form_for` helper                    | __ff__      | `<%= form_for(@ ) do |f| %> ...`     |
-| `if` / `else` block                  | __ife__     | `<% if  %>...<% else %>...<% end %>` |
-| `if` block                           | __if__      | `<% if  %>...<% end %>`              |
-| `label_tag` helper                   | __lblt__    | `<%= label_tag ..., ... %>`          |
-| `link_to` helper                     | __lt__      | `<%= link_to ..., ... %>`            |
-| ERB display tag                      | __pe__      | `<%=  %>`                            |
-| `submit_tag` helper                  | __st__      | `<%= submit_tag ..., ... %>`         |
-| `text_field_tag` helper              | __tft__     | `<%= text_field_tag ..., ... %>`     |
-| `unless` block                       | __unless__  | `<% unless  %>...<% end %>`          |
-| `image_tag` helper                   | __it__      | `<%= image_tag ..., ... %>`          |
-| `cl_image_tag` helper                | __clt__     | `<%= cl_image_tag(...) %>`           |
-| `time_ago_in_words` helper           | __tw__      | `<%= time_ago_in_words(...) %>`      |
-| `simple_form_for` helper             | __sf__      | `<%= simple_form_for ... do |f| %>`  |
-| `f.input` helper tag for simple form | __fi__      | `<%= f.input ... %>`                 |
-| `hidden_field_tag` helper tag        | __hft__     | `<%= hidden_field_tag ..., ... %>`   |
 
+| Snippet                              | Tab Trigger | Output                              |
+| ------------------------------------ | ----------- | ----------------------------------- |
+| ERB comment tag                      | **pc**      | `<%# %>`                            |
+| `each` helper                        | **each**    | `<% @things.each do |thing| %> ...` |
+| `else` tag                           | **else**    | `<% else %>`                        |
+| `elsif` tag                          | **elsif**   | `<% elsif %>`                       |
+| `end` tag                            | **end**     | `<% end %>`                         |
+| ERB no display tag                   | **er**      | `<% %>`                             |
+| `form_for` helper                    | **ff**      | `<%= form_for(@ ) do |f| %> ...`    |
+| `if` / `else` block                  | **ife**     | `<% if %>...<% else %>...<% end %>` |
+| `if` block                           | **if**      | `<% if %>...<% end %>`              |
+| `label_tag` helper                   | **lblt**    | `<%= label_tag ..., ... %>`         |
+| `link_to` helper                     | **lt**      | `<%= link_to ..., ... %>`           |
+| ERB display tag                      | **pe**      | `<%= %>`                            |
+| `submit_tag` helper                  | **st**      | `<%= submit_tag ..., ... %>`        |
+| `text_field_tag` helper              | **tft**     | `<%= text_field_tag ..., ... %>`    |
+| `unless` block                       | **unless**  | `<% unless %>...<% end %>`          |
+| `image_tag` helper                   | **it**      | `<%= image_tag ..., ... %>`         |
+| `cl_image_tag` helper                | **clt**     | `<%= cl_image_tag(...) %>`          |
+| `time_ago_in_words` helper           | **tw**      | `<%= time_ago_in_words(...) %>`     |
+| `simple_form_for` helper             | **sf**      | `<%= simple_form_for ... do |f| %>` |
+| `f.input` helper tag for simple form | **fi**      | `<%= f.input ... %>`                |
+| `hidden_field_tag` helper tag        | **hft**     | `<%= hidden_field_tag ..., ... %>`  |
 
 ## License
 
