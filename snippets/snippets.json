@@ -118,5 +118,11 @@
 		"body": "<%= f.input :${1:attribute} %>",
 		"description": "Input for simple form",
 		"scope": "text.html.ruby"
+	},
+	"hidden field tag": {
+		"prefix": "hft",
+		"body": "<%= hidden_field_tag :${1:label}, ${2:value} %>",
+		"description": "Hidden field tag helper",
+		"scope": "text.html.ruby"
 	}
 }
