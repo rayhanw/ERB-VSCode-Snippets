@@ -97,7 +97,7 @@
 	},
 	"cloudinary image tag": {
 		"prefix": "clt",
-		"body": "<%= cl_image_tag($1) %>",
+		"body": "<%= cl_image_tag(@$1) %>",
 		"description": "a cloudinary image tag",
 		"scope": "text.html.ruby"
 	},
@@ -111,6 +111,12 @@
 		"prefix": "sf",
 		"body": "<%= simple_form_for @${1:model} do |f| %>\n\t$0\n<% end %>\n",
 		"description": "simple form tag",
+		"scope": "text.html.ruby"
+	},
+	"simple form nested model helper": {
+		"prefix": "sfn",
+		"body": "<%= simple_form_for [@${1:first}, @${2:second}] do |f| %>\n\t$0\n<% end %>\n",
+		"description": "nested model simple form tag",
 		"scope": "text.html.ruby"
 	},
 	"simple form input": {
