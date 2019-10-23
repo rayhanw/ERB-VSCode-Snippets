@@ -25,7 +25,7 @@
 	},
 	"end": {
 		"prefix": "end",
-		"body": "\n<% end %>\n",
+		"body": "<% end %>\n",
 		"description": "ERB end tag",
 		"scope": "text.html.ruby"
 	},
