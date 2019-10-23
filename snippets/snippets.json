@@ -109,7 +109,7 @@
 	},
 	"simple form helper": {
 		"prefix": "sf",
-		"body": "<%= simple_form_for ${1:@model} do |f| %>\n\t$0\n<% end %>\n",
+		"body": "<%= simple_form_for @${1:model} do |f| %>\n\t$0\n<% end %>\n",
 		"description": "simple form tag",
 		"scope": "text.html.ruby"
 	},
