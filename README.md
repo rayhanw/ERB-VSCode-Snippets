@@ -24,7 +24,7 @@ These snippets can now be installed via [VS Code Marketplace](https://marketplac
 1. Download [erb-vscode-snippets.vsix](https://raw.githubusercontent.com/ZneuRay/ERB-VSCode-Snippets/master/bin/erb-vscode-snippets.vsix)
 2. Press `F1` enter `ext vsix`
 3. Select `erb-vscode-snippets.vsix`
-  
+
 ## Manual installation without extension
 
 1. You can just copy the snippets from [snippets.json](https://raw.githubusercontent.com/ZneuRay/ERB-VSCode-Snippets/master/snippets/snippets.json)
@@ -40,89 +40,89 @@ These snippets can now be installed via [VS Code Marketplace](https://marketplac
     <th>Output</th>
   </tr>
   <tr>
-    <td>ERB tags</td>
-    <td>__er__</td>
-    <td>`<%  %>`</td>
-  </tr>
-  <tr>
-    <td>print ERB tags</td>
-    <td>__pe__</td>
-    <td>`<%=  %>`</td>
-  </tr>
-  <tr>
-    <td>print ERB comment</td>
-    <td>__pc__</td>
+    <td>ERB comment tag</td>
+    <td>**pc**</td>
     <td>`<%#  %>`</td>
   </tr>
   <tr>
-    <td>`if` block</td>
-    <td>__if__</td>
-    <td>`<% if  %>...<% end %>`</td>
-  </tr>
-  <tr>
-    <td>`if` / `else` block</td>
-    <td>__ife__</td>
-    <td>`<% if  %>...<% else %>...<% end %>`</td>
+    <td>`each` helper</td>
+    <td>each</td>
+    <td>`<% @things.each do |thing| %> ... <% end %>`</td>
   </tr>
   <tr>
     <td>`else` tag</td>
-    <td>__else__</td>
+    <td>**else**</td>
     <td>`<% else %>`</td>
   </tr>
   <tr>
     <td>`elsif` tag</td>
-    <td>__elsif__</td>
+    <td>**elsif**</td>
     <td>`<% elsif %>`</td>
   </tr>
   <tr>
-    <td>`unless` block</td>
-    <td>__unless__</td>
-    <td>`<% unless  %>...<% end %>`</td>
-  </tr>
-  <tr>
     <td>`end` block</td>
-    <td>__end__</td>
+    <td>**end**</td>
     <td>`<% end %>`</td>
   </tr>
   <tr>
-    <td>`submit_tag` helper</td>
-    <td>__st__</td>
-    <td>`<%= submit_tag ..., ... %>`</td>
+    <td>ERB no display tag</td>
+    <td>**er**</td>
+    <td>`<%  %>`</td>
   </tr>
   <tr>
-    <td>`text_field_tag` helper</td>
-    <td>__tft__</td>
-    <td>`<%= text_field_tag ..., ... %>`</td>
+    <td>`form_for` helper</td>
+    <td>ff</td>
+    <td>`<%= form_for(@ ) do |f| %> ... <% end %>`</td>
   </tr>
   <tr>
-    <td>`password_field_tag` helper</td>
-    <td>__pft__</td>
-    <td>`<%= password_field_tag ..., ... %>`</td>
+    <td>`if` / `else` block</td>
+    <td>**ife**</td>
+    <td>`<% if  %>...<% else %>...<% end %>`</td>
+  </tr>
+  <tr>
+    <td>`if` block</td>
+    <td>**if**</td>
+    <td>`<% if  %>...<% end %>`</td>
   </tr>
   <tr>
     <td>`label_tag` helper</td>
-    <td>__lblt__</td>
+    <td>lblt</td>
     <td>`<%= label_tag ..., ... %>`</td>
   </tr>
   <tr>
     <td>`link_to` helper</td>
-    <td>__lt__</td>
+    <td>lt</td>
     <td>`<%= link_to ..., ... %>`</td>
   </tr>
   <tr>
-    <td>`each` helper</td>
-    <td>__each__</td>
-    <td>`<% @things.each do |thing| %> ... <% end %>`</td>
+    <td>print ERB tags</td>
+    <td>**pe**</td>
+    <td>`<%=  %>`</td>
   </tr>
   <tr>
-    <td>`form_for` helper</td>
-    <td>__ff__</td>
-    <td>`<%= form_for(@ ) do |f| %> ... <% end %>`</td>
+    <td>`submit_tag` helper</td>
+    <td>**st**</td>
+    <td>`<%= submit_tag ..., ... %>`</td>
   </tr>
   <tr>
-    <td>`t()` helper</td>
-    <td>__t__</td>
-    <td>`<%= t('@') %>`</td>
+    <td>`text_field_tag` helper</td>
+    <td>**tft**</td>
+    <td>`<%= text_field_tag ..., ... %>`</td>
+  </tr>
+  <tr>
+    <td>`unless` block</td>
+    <td>**unless**</td>
+    <td>`<% unless  %>...<% end %>`</td>
+  </tr>
+  <tr>
+    <td>`cl_image_tag` helper</td>
+    <td>**clt**</td>
+    <td>`<%= cl_image_tag(...) %>"`</td>
+  </tr>
+  <tr>
+    <td>`time_ago_in_words` helper</td>
+    <td>**tw**</td>
+    <td>`time_ago_in_words(...)`</td>
   </tr>
 <table>
 
