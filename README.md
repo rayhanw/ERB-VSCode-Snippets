@@ -6,6 +6,8 @@ A collection of [Visual Studio Code](https://code.visualstudio.com/) snippets us
 
 ## Version
 
+_0.1.0_ -> _0.3.0_ - Added a couple more snippets
+
 _0.0.6_ - Changed gif showcase
 
 _0.0.5_ - New helpers (cloudinary image tag, time ago in words, simple form, etc.)
@@ -61,6 +63,8 @@ These snippets can now be installed via [VS Code Marketplace](https://marketplac
 | `f.input` helper tag for simple form  | **fi**      | `<%= f.input ... %>`                        |
 | `hidden_field_tag` helper tag         | **hft**     | `<%= hidden_field_tag ..., ... %>`          |
 | `f.submit` helper tag for simple form | **ft**      | `<%= f.submit ... %>`                       |
+| `link_to_if` helper tag               | **lft**     | `<%= link_to_if ..., ... %>`                |
+| `javascript_pack_tag` helper tag      | **jft**     | `<%= javascript_pack_tag ... %>             |
 
 ## License
 
