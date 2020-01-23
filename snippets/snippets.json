@@ -142,5 +142,11 @@
     "body": "<%= link_to_if($1, $2) %>",
     "description": "Link to if tag",
     "scope": "text.html.ruby"
+  },
+  "javascript pack tag": {
+    "prefix": "jpt",
+    "body": "<%= javascript_pack_tag '$1' %>",
+    "description": "javascript pack tag",
+    "scope": "text.html.ruby"
   }
 }
