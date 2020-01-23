@@ -2,7 +2,7 @@
 	"name": "erb-helpers",
 	"displayName": "ERB Helper Tags",
 	"description": "A collection of ERB snippets",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"publisher": "rayhanw",
 	"engines": {
 		"vscode": "^1.5.0"
