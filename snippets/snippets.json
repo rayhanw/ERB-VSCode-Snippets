@@ -1,140 +1,146 @@
 {
-	"pc": {
-		"prefix": "pc",
-		"body": "<%# $0 %>",
-		"description": "commented ERB tags",
-		"scope": "text.html.ruby"
-	},
-	"each": {
-		"prefix": "each",
-		"body": "\n<% ${1:@things}.each do |${2:thing}| %>\n\t$0\n<% end %>\n",
-		"description": "ERB each block",
-		"scope": "text.html.ruby"
-	},
-	"else": {
-		"prefix": "else",
-		"body": "<% else %>",
-		"description": "ERB else tag",
-		"scope": "text.html.ruby"
-	},
-	"elsif": {
-		"prefix": "elsif",
-		"body": "<% elsif ${1:true} %>",
-		"description": "ERB elsif tag",
-		"scope": "text.html.ruby"
-	},
-	"end": {
-		"prefix": "end",
-		"body": "<% end %>\n",
-		"description": "ERB end tag",
-		"scope": "text.html.ruby"
-	},
-	"er": {
-		"prefix": "er",
-		"body": "<% $0 %>",
-		"description": "ERB no display tag",
-		"scope": "text.html.ruby"
-	},
-	"ff": {
-		"prefix": "ff",
-		"body": "<%= form_for(${1:@things}) do |${2:f}| %>\n\t\t$3\n<% end %>\n  ",
-		"description": "ERB form_for tag",
-		"scope": "text.html.ruby"
-	},
-	"ife": {
-		"prefix": "ife",
-		"body": "\n<% if $1 %>\n\t$2\n<% else %>\n\t$0\n<% end %>\n",
-		"description": "ERB if / else / end",
-		"scope": "text.html.ruby"
-	},
-	"if": {
-		"prefix": "if",
-		"body": "\n<% if $1 %>\n\t$0\n<% end %>\n",
-		"description": "ERB if / end",
-		"scope": "text.html.ruby"
-	},
-	"lblt": {
-		"prefix": "lblt",
-		"body": "<%= label_tag :${1:thing}, \"${2:Your label text}\" %>",
-		"description": "ERB label tag",
-		"scope": "text.html.ruby"
-	},
-	"lt": {
-		"prefix": "lt",
-		"body": "<%= link_to $1, $2 %>",
-		"description": "ERB link tag",
-		"scope": "text.html.ruby"
-	},
-	"pe": {
-		"prefix": "pe",
-		"body": "<%= $0 %>",
-		"description": "ERB display tag",
-		"scope": "text.html.ruby"
-	},
-	"st": {
-		"prefix": "st",
-		"body": "<%= submit_tag \"${1:My Button Text}\", class: \"${2:class}\" %>",
-		"description": "ERB submit tag",
-		"scope": "text.html.ruby"
-	},
-	"tft": {
-		"prefix": "tft",
-		"body": "<%= text_field_tag \"${1:name}\", \"${2:value}\", placeholder: \"${3:placeholder}\", class: \"${4:class}\" %>",
-		"description": "ERB text field tag",
-		"scope": "text.html.ruby"
-	},
-	"unless": {
-		"prefix": "unless",
-		"body": "\n<% unless $1 %>\n\t$0\n<% end %>\n",
-		"description": "ERB unless / end",
-		"scope": "text.html.ruby"
-	},
-	"image tag": {
-		"prefix": "it",
-		"body": "<%= image_tag ${1:source}, :${2:alttext} %>",
-		"description": "Image tag",
-		"scope": "text.html.ruby"
-	},
-	"cloudinary image tag": {
-		"prefix": "clt",
-		"body": "<%= cl_image_tag(@$1) %>",
-		"description": "a cloudinary image tag",
-		"scope": "text.html.ruby"
-	},
-	"time ago in words": {
-		"prefix": "tw",
-		"body": "<%= time_ago_in_words($1) %>",
-		"description": "distance from time tag",
-		"scope": "text.html.ruby"
-	},
-	"simple form helper": {
-		"prefix": "sf",
-		"body": "<%= simple_form_for @${1:model} do |f| %>\n\t$0\n<% end %>\n",
-		"description": "simple form tag",
-		"scope": "text.html.ruby"
-	},
-	"simple form nested model helper": {
-		"prefix": "sfn",
-		"body": "<%= simple_form_for [@${1:first}, @${2:second}] do |f| %>\n\t$0\n<% end %>\n",
-		"description": "nested model simple form tag",
-		"scope": "text.html.ruby"
-	},
-	"simple form input": {
-		"prefix": "fi",
-		"body": "<%= f.input :${1:attribute} %>",
-		"description": "Input for simple form",
-		"scope": "text.html.ruby"
-	},
-	"hidden field tag": {
-		"prefix": "hft",
-		"body": "<%= hidden_field_tag :${1:label}, ${2:value} %>",
-		"description": "Hidden field tag helper",
-		"scope": "text.html.ruby"
-	},
-	"simple form submit": {
-		"prefix": "ft",
-		"body": "<%= f.submit '${1:text}' %>",
-		"description": "Submit tag for simple form",
-		"scope": "text.html.ruby"
-	}
+  "pc": {
+    "prefix": "pc",
+    "body": "<%# $0 %>",
+    "description": "commented ERB tags",
+    "scope": "text.html.ruby"
+  },
+  "each": {
+    "prefix": "each",
+    "body": "\n<% ${1:@things}.each do |${2:thing}| %>\n\t$0\n<% end %>\n",
+    "description": "ERB each block",
+    "scope": "text.html.ruby"
+  },
+  "else": {
+    "prefix": "else",
+    "body": "<% else %>",
+    "description": "ERB else tag",
+    "scope": "text.html.ruby"
+  },
+  "elsif": {
+    "prefix": "elsif",
+    "body": "<% elsif ${1:true} %>",
+    "description": "ERB elsif tag",
+    "scope": "text.html.ruby"
+  },
+  "end": {
+    "prefix": "end",
+    "body": "<% end %>\n",
+    "description": "ERB end tag",
+    "scope": "text.html.ruby"
+  },
+  "er": {
+    "prefix": "er",
+    "body": "<% $0 %>",
+    "description": "ERB no display tag",
+    "scope": "text.html.ruby"
+  },
+  "ff": {
+    "prefix": "ff",
+    "body": "<%= form_for(${1:@things}) do |${2:f}| %>\n\t\t$3\n<% end %>\n  ",
+    "description": "ERB form_for tag",
+    "scope": "text.html.ruby"
+  },
+  "ife": {
+    "prefix": "ife",
+    "body": "\n<% if $1 %>\n\t$2\n<% else %>\n\t$0\n<% end %>\n",
+    "description": "ERB if / else / end",
+    "scope": "text.html.ruby"
+  },
+  "if": {
+    "prefix": "if",
+    "body": "\n<% if $1 %>\n\t$0\n<% end %>\n",
+    "description": "ERB if / end",
+    "scope": "text.html.ruby"
+  },
+  "lblt": {
+    "prefix": "lblt",
+    "body": "<%= label_tag :${1:thing}, \"${2:Your label text}\" %>",
+    "description": "ERB label tag",
+    "scope": "text.html.ruby"
+  },
+  "lt": {
+    "prefix": "lt",
+    "body": "<%= link_to $1, $2 %>",
+    "description": "ERB link tag",
+    "scope": "text.html.ruby"
+  },
+  "pe": {
+    "prefix": "pe",
+    "body": "<%= $0 %>",
+    "description": "ERB display tag",
+    "scope": "text.html.ruby"
+  },
+  "st": {
+    "prefix": "st",
+    "body": "<%= submit_tag \"${1:My Button Text}\", class: \"${2:class}\" %>",
+    "description": "ERB submit tag",
+    "scope": "text.html.ruby"
+  },
+  "tft": {
+    "prefix": "tft",
+    "body": "<%= text_field_tag \"${1:name}\", \"${2:value}\", placeholder: \"${3:placeholder}\", class: \"${4:class}\" %>",
+    "description": "ERB text field tag",
+    "scope": "text.html.ruby"
+  },
+  "unless": {
+    "prefix": "unless",
+    "body": "\n<% unless $1 %>\n\t$0\n<% end %>\n",
+    "description": "ERB unless / end",
+    "scope": "text.html.ruby"
+  },
+  "image tag": {
+    "prefix": "it",
+    "body": "<%= image_tag ${1:source}, :${2:alttext} %>",
+    "description": "Image tag",
+    "scope": "text.html.ruby"
+  },
+  "cloudinary image tag": {
+    "prefix": "clt",
+    "body": "<%= cl_image_tag(@$1) %>",
+    "description": "a cloudinary image tag",
+    "scope": "text.html.ruby"
+  },
+  "time ago in words": {
+    "prefix": "tw",
+    "body": "<%= time_ago_in_words($1) %>",
+    "description": "distance from time tag",
+    "scope": "text.html.ruby"
+  },
+  "simple form helper": {
+    "prefix": "sf",
+    "body": "<%= simple_form_for @${1:model} do |f| %>\n\t$0\n<% end %>\n",
+    "description": "simple form tag",
+    "scope": "text.html.ruby"
+  },
+  "simple form nested model helper": {
+    "prefix": "sfn",
+    "body": "<%= simple_form_for [@${1:first}, @${2:second}] do |f| %>\n\t$0\n<% end %>\n",
+    "description": "nested model simple form tag",
+    "scope": "text.html.ruby"
+  },
+  "simple form input": {
+    "prefix": "fi",
+    "body": "<%= f.input :${1:attribute} %>",
+    "description": "Input for simple form",
+    "scope": "text.html.ruby"
+  },
+  "hidden field tag": {
+    "prefix": "hft",
+    "body": "<%= hidden_field_tag :${1:label}, ${2:value} %>",
+    "description": "Hidden field tag helper",
+    "scope": "text.html.ruby"
+  },
+  "simple form submit": {
+    "prefix": "ft",
+    "body": "<%= f.submit '${1:text}' %>",
+    "description": "Submit tag for simple form",
+    "scope": "text.html.ruby"
+  },
+  "link to if": {
+    "prefix": "lft",
+    "body": "<%= link_to_if($1, $2) %>",
+    "description": "Link to if tag",
+    "scope": "text.html.ruby"
+  }
 }
