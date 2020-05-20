@@ -64,7 +64,7 @@ These snippets can now be installed via [VS Code Marketplace](https://marketplac
 | `hidden_field_tag` helper tag         | **hft**     | `<%= hidden_field_tag ..., ... %>`          |
 | `f.submit` helper tag for simple form | **ft**      | `<%= f.submit ... %>`                       |
 | `link_to_if` helper tag               | **lft**     | `<%= link_to_if ..., ... %>`                |
-| `javascript_pack_tag` helper tag      | **jft**     | `<%= javascript_pack_tag ... %>`            |
+| `javascript_pack_tag` helper tag      | **jpt**     | `<%= javascript_pack_tag ... %>`            |
 
 ## Note
 
