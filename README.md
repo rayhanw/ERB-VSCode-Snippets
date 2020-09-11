@@ -65,6 +65,7 @@ These snippets can now be installed via [VS Code Marketplace](https://marketplac
 | `f.submit` helper tag for simple form | **ft**      | `<%= f.submit ... %>`                       |
 | `link_to_if` helper tag               | **lft**     | `<%= link_to_if ..., ... %>`                |
 | `javascript_pack_tag` helper tag      | **jpt**     | `<%= javascript_pack_tag ... %>`            |
+| `cl_image_path` helper                | **clp**     | `<%= cl_image_path (<model>) %>`            |
 
 ## Note
 
