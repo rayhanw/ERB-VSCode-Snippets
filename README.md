@@ -6,6 +6,8 @@ A collection of [Visual Studio Code](https://code.visualstudio.com/) snippets us
 
 ## Version
 
+_0.5.1_ - Added 2 new tags used in Rails 7
+
 _0.5.0_ - Added `cl_image_path` -> `clp`
 
 _0.1.0_ -> _0.3.0_ - Added a couple more snippets
