@@ -68,6 +68,8 @@ These snippets can now be installed via [VS Code Marketplace](https://marketplac
 | `link_to_if` helper tag               | **lft**     | `<%= link_to_if ..., ... %>`         |
 | `javascript_pack_tag` helper tag      | **jpt**     | `<%= javascript_pack_tag ... %>`     |
 | `cl_image_path` helper                | **clp**     | `<%= cl_image_path (<model>) %>`     |
+| `turbo_frame_tag` helper              | **tf**      | `<%= turbo_frame_tag ... %>`         |
+| `turbo_stream_from` helper            | **ts**      | `<%= turbo_stream_from ... %>`       |
 
 ## Note
 

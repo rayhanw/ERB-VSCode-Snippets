@@ -91,7 +91,7 @@
 	},
 	"image tag": {
 		"prefix": "it",
-		"body": "<%= image_tag ${1:source}, :${2:alttext} %>",
+		"body": "<%= image_tag ${1:source}, alt: \"${2:text}\" %>",
 		"description": "Image tag",
 		"scope": "text.html.ruby"
 	},
@@ -154,5 +154,17 @@
 		"body": "<%= cl_image_path($1) %>",
 		"description": "a cloudinary image path",
 		"scope": "text.html.ruby"
-	}
+	},
+  "turbo frame tag": {
+    "prefix": "tf",
+    "body": "<%= turbo_frame_tag $1 %>",
+    "description": "Generates a Turbo frame tag",
+    "scope": "text.html.ruby"
+  },
+  "turbo stream from tag": {
+    "prefix": "ts",
+    "body": "<%= turbo_stream_from $1 %>",
+    "description": "Generates a turbo_stream_from tag",
+    "scope": "text.html.ruby"
+  }
 }
