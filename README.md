@@ -4,6 +4,8 @@ This extension is a fork of [ERB-VSCode-Snippets](https://github.com/ZneuRay/ERB
 
 A collection of [Visual Studio Code](https://code.visualstudio.com/) snippets useful for writing [ERB](http://ruby-doc.org/stdlib-1.9.3/libdoc/erb/rdoc/ERB.html)
 
+[VSCode marketplace link](https://marketplace.visualstudio.com/items?itemName=rayhanw.erb-helpers)
+
 ## Version
 
 _0.6.0_ - Added 2 new tags used in Rails 7
