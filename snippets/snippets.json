@@ -5,6 +5,12 @@
 		"description": "commented ERB tags",
 		"scope": "text.html.ruby"
 	},
+  "lmc": {
+    "prefix": "lmc",
+    "body": "<%# locals: ($0) -%>",
+    "description": "Rails strict locals magic comment",
+    "scope": "text.html.ruby"
+  },
 	"each": {
 		"prefix": "each",
 		"body": "\n<% ${1:@things}.each do |${2:thing}| %>\n\t$0\n<% end %>\n",
